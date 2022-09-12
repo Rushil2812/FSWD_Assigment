@@ -28,10 +28,7 @@ function Register() {
 
                     <Button variant="primary" type="submit" className='my-3'>
                         Submit
-                    </Button>
-                    <Button variant="primary" type="submit" className='my-3'>
-                        Submit
-                    </Button>
+
                 </Form>
             </Container>
             <Card.Footer>Thank You</Card.Footer>
