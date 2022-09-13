@@ -19,11 +19,11 @@ public class PatientRecordController {
         return patientRecordRepository.findAll();
     }
 
-//    @GetMapping()
-//    public String getWelcome()
-//    {
-//        return "<h1>Welcome Here<h1>";
-//    }
+    @GetMapping()
+    public String getWelcome()
+    {
+        return "<h1>Welcome Here<h1>";
+    }
     @PostMapping("/patient")
     public String addStudent(@RequestBody PatientRecord patient){
             patientRecordRepository.save(patient);
