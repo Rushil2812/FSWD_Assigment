@@ -27,7 +27,7 @@ function Register() {
                     </Form.Group>
 
                     <Button variant="primary" type="submit" className='my-3'>
-                        Submit
+                        Submit</Button>
 
                 </Form>
             </Container>
