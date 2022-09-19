@@ -21,13 +21,13 @@ function Register() {
                         <Form.Control name="password" type="password" placeholder="Password" />
                     </Form.Group>
 
-                    {/* <Form.Group className="mb-3" controlId="formBasicPassword">
+                    <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Confirm Password</Form.Label>
                         <Form.Control name="confirm" type="password" placeholder="Confirm Password" />
                     </Form.Group>
 
                     <Button variant="primary" type="submit" className='my-3'>
-                        Submit</Button> */}
+                        Submit</Button>
 
                 </Form>
             </Container>
