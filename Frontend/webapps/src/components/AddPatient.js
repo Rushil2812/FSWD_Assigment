@@ -22,19 +22,19 @@ export default function AddPatient() {
         age:age,
     }
 
-    let changeText=(event)=>{
-        if(event.target.name==='id')
-            setId(event.target.value);
+    // let changeText=(event)=>{
+    //     if(event.target.name==='id')
+    //         setId(event.target.value);
 
-        else if(event.target.name==='name')
-            setName(event.target.value);
+    //     else if(event.target.name==='name')
+    //         setName(event.target.value);
 
-        else if(event.target.name==='age')
-            setAge(event.target.value)
+    //     else if(event.target.name==='age')
+    //         setAge(event.target.value)
 
-        else if(event.target.name==='address')
-            setAddress(event.target.value)
-    }
+    //     else if(event.target.name==='address')
+    //         setAddress(event.target.value)
+    // }
 
     // let saveStudent = (event) => {
     //     event.preventDefault();
