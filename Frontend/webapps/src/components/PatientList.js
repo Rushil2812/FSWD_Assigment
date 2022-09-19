@@ -8,11 +8,11 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 
 export default function PatientList() {
-    // const[patients,setPatients]=useState([])
-    // useEffect(()=>{
-    //     axios.get('http://localhost:8080/patient')
-    //         .then(response=>setPatients(response.data))
-    //         .catch(error=>alert(error))
+    const[patients,setPatients]=useState([])
+    useEffect(()=>{
+        axios.get('http://localhost:8080/patient')
+            .then(response=>setPatients(response.data))
+            .catch(error=>alert(error))
     })
     let deleteRec=(id,event)=>{
         event.preventDefault();
