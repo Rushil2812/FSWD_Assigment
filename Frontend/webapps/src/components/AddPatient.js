@@ -70,19 +70,19 @@ export default function AddPatient() {
         setName('');
 
     }
-    // useEffect(()=>
-    // {
-    //     if(patientId!==null)
-    //     {
-    //         axios.get("http://localhost:8080/patient/"+patientId)
-    //             .then(response=>{
-    //                 setId(response.data.patientId)
-    //                 setName(response.data.name)
-    //                 setAge(response.data.age)
-    //                 setAddress(response.data.address)
-    //             })
-    //     }
-    // },[])
+    useEffect(()=>
+    {
+        if(patientId!==null)
+        {
+            axios.get("http://localhost:8080/patient/"+patientId)
+                .then(response=>{
+                    setId(response.data.patientId)
+                    setName(response.data.name)
+                    setAge(response.data.age)
+                    setAddress(response.data.address)
+                })
+        }
+    },[])
     return (
 
         <Card className='my-3'>
