@@ -14,12 +14,12 @@ export default function PatientList() {
             .then(response=>setPatients(response.data))
             .catch(error=>alert(error))
     })
-    let deleteRec=(id,event)=>{
-        event.preventDefault();
-        axios.delete('http://localhost:8080/patient/'+id)
-            .then(response=> alert(response.data))
-            .catch(error=>alert(error))
-    }
+    // let deleteRec=(id,event)=>{
+    //     event.preventDefault();
+    //     axios.delete('http://localhost:8080/patient/'+id)
+    //         .then(response=> alert(response.data))
+    //         .catch(error=>alert(error))
+    // }
     return (
         <Card className="my-3">
             <Card.Header>Patient List</Card.Header>
