@@ -35,7 +35,7 @@ export default function PatientList() {
                     </tr>
                     </thead>
                     <tbody>
-                    {/* {patients.map((patient)=>
+                    {patients.map((patient)=>
                         <tr key={patient.patientId}>
                             <td>{patient.patientId}</td>
                             <td>{patient.name}</td>
@@ -45,7 +45,7 @@ export default function PatientList() {
                             {' '}<DeleteIcon color="error" onClick={deleteRec.bind(this,patient.patientId)} /></td>
                         </tr>)}
                     </tbody>
-                </Table> */}
+                </Table>
             </div>
             <Card.Footer>Information is upto Date</Card.Footer>
         </Card>
